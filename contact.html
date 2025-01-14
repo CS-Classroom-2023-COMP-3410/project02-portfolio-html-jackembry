@@ -1,0 +1,46 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- The <head> section defines metadata for the portfolio. 
+It includes the character set (UTF-8) for encoding, viewport settings for responsive design, 
+a meta description for search engines, and the page title. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for Jembry's Skiing Portfolio.">
+    <title>Contact</title>
+</head>
+<body style="background-image: url('images/BreckBackground.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: center; color: white; font-family: Arial, sans-serif;" alt="Drone shot of Breck CO">
+    <header>
+        <h1 style="text-align: center; font-size: 3em;">Contact Me</h1>
+        <div style="position: absolute; top: 10px; left: 10px;">
+            <a href="index.html" style="color: white; text-decoration: none; font-size: 1.2em; background-color: black;">&larr; Back to Home</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
+            <img src="images/IMG_4413.JPG" alt="Left Image" style="width: 400px; margin-right: 20px; border-radius: 10px;">
+            <form action="mailto:jack.embry@du.edu" method="post" enctype="text/plain" style="background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px;">
+                <label for="name" style="color: white; font-size: 1.2em;">Name:</label><br>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: none;"><br>
+        
+                <label for="email" style="color: white; font-size: 1.2em;">Email:</label><br>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: none;"><br>
+        
+                <label for="message" style="color: white; font-size: 1.2em;">Message:</label><br>
+                <textarea id="message" name="message" rows="5" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: none;"></textarea><br>
+        
+                <input type="submit" value="Send" style="background-color: white; color: black; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1.2em;">
+            </form>
+            <img src="images/FullSizeRender.jpeg" alt="Right Image" style="width: 400px; margin-left: 20px; border-radius: 10px;">
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p style="text-align: center;">&copy; 2025 Jembry's Skiing Portfolio</p>
+    </footer>
+</body>
+</html>
